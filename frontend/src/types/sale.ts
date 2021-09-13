@@ -26,3 +26,16 @@ export type CharData2 ={
         data:number[]}
     ];
 }
+
+export type SalePage = {
+    content: any[],
+    last: boolean,
+    totalElements: number,
+    totalPages: number,
+    size: number,
+    number: number,
+    frist: boolean,
+    numberOfElements: number,
+    empty: boolean
+}
+

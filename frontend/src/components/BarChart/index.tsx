@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts'
-import * as types from '../../types/types'
+import * as types from '../../types/sale'
 import { round } from 'utils/format';
 import { BASE_URL } from 'utils/requests';
 export default function BarChart(){

@@ -1,6 +1,6 @@
 import axios from 'axios'
 import Chart from 'react-apexcharts'
-import * as types from '../../types/types'
+import * as types from '../../types/sale'
 import { BASE_URL } from 'utils/requests'
 import { useEffect, useState } from 'react'
 export default function DonutsChart (){
