@@ -1,4 +1,4 @@
-import Dashboard from "pages/Dashboard";
+import Dashboard from "./pages/Dashboard";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from './pages/Home'
 export default function Routes(){
@@ -9,7 +9,7 @@ export default function Routes(){
                     <Route path="/" exact>
                         <Home/>
                     </Route>
-                    <Route path="/" exact>
+                    <Route path="/Dashboard" exact>
                         <Dashboard/>
                     </Route>
                 </Switch>
