@@ -1,3 +1,4 @@
+import React from 'react';
 export default function nova (){
 return(
     <footer className="footer mt-auto py-3 bg-dark">
